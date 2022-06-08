@@ -1,0 +1,151 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Happy Path",
+        "description": "",
+        "id": "happy-path;happy-path;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 419590500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Que accedo al servicio conversión de cadenas",
+            "match": {
+              "location": "ConversionDefinition.que_accedo_al_servicio_conversión_de_cadenas()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 66114300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Ingreso la cadena a convertir \"prueba\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "prueba",
+                  "offset": 31
+                }
+              ],
+              "location": "ConversionDefinition.ingreso_la_cadena_a_convertir(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2884073300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Se muestra código satisfactorio",
+            "match": {
+              "location": "ConversionDefinition.se_muestra_código_satisfactorio()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47607700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Se muestra a cadena covertida correctamente",
+            "match": {
+              "location": "ConversionDefinition.se_muestra_a_cadena_covertida_correctamente()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestCaseKey\u003dQA-T3968"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Happy Path",
+        "description": "",
+        "id": "happy-path;happy-path;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3872300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Que accedo al servicio conversión de cadenas",
+            "match": {
+              "location": "ConversionDefinition.que_accedo_al_servicio_conversión_de_cadenas()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2378400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Ingreso la cadena a convertir \"valor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valor",
+                  "offset": 31
+                }
+              ],
+              "location": "ConversionDefinition.ingreso_la_cadena_a_convertir(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35097600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Se muestra código satisfactorio",
+            "match": {
+              "location": "ConversionDefinition.se_muestra_código_satisfactorio()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1388600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Se muestra a cadena covertida correctamente",
+            "match": {
+              "location": "ConversionDefinition.se_muestra_a_cadena_covertida_correctamente()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestCaseKey\u003dQA-T3968"
+          }
+        ]
+      }
+    ],
+    "name": "Happy Path",
+    "description": "",
+    "id": "happy-path",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/QA-T3968.feature",
+    "tags": []
+  }
+]

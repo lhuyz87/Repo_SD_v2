@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="3.60823">
+<testcase classname="Happy Path" name="Happy Path" time="3.559446">
+<system-out><![CDATA[Given Que accedo al servicio conversión de cadenas..........................passed
+When Ingreso la cadena a convertir "prueba".................................passed
+Then Se muestra código satisfactorio........................................passed
+And Se muestra a cadena covertida correctamente.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Happy Path" name="Happy Path 2" time="0.048784">
+<system-out><![CDATA[Given Que accedo al servicio conversión de cadenas..........................passed
+When Ingreso la cadena a convertir "valor"..................................passed
+Then Se muestra código satisfactorio........................................passed
+And Se muestra a cadena covertida correctamente.............................passed
+]]></system-out>
+</testcase>
+</testsuite>
