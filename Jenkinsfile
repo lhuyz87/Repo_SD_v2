@@ -71,7 +71,7 @@ pipeline {
 				customTestCycle: [
 				name: 'Regresion Test',
                 description: 'Resultado de pruebas de regresion', 
-                jiraProjectVersion: '', 
+                jiraProjectVersion: '1.0', 
                 folderId: '/Pruebas de Regresion', 
                 //customFields: '{"number":50,"single-choice":"option1","checkbox":true,"userpicker":"5f8b5cf2ddfdcb0b8d1028bb","single-line":"a text line","datepicker":"2020-01-25","decimal":10.55,"multi-choice":["choice1","choice3"],"multi-line":"first line<br />second line"}'
              
