@@ -66,15 +66,9 @@ pipeline {
                     projectKey: 'QA',
                     filePath:'target/cucumber/*.json',
                     format: 'Cucumber',
-                    autoCreateTestCases: true
-					
-					
-			publishTestResults serverAddress: 'https://itera2020.atlassian.net',
-                    projectKey: 'PC',
-                    filePath:'target/cucumber/*.json',
-                    format: 'Cucumber',
                     autoCreateTestCases: true,
-					customTestCycle: [
+				
+				customTestCycle: [
                 name: 'Jenkins Build',
                 description: 'Results from Jenkins Build', 
                 jiraProjectVersion: '10001', 
