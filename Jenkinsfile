@@ -66,7 +66,7 @@ pipeline {
                     projectKey: 'QA',
                     filePath:'target/cucumber/*.json',
                     format: 'Cucumber',
-                    autoCreateTestCases: true,
+                    autoCreateTestCases: false,
 				
 				customTestCycle: [
 				name: 'Regresion Test',
